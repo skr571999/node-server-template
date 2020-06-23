@@ -1,6 +1,6 @@
 {
   "name": "node-server-template",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This is a basic template of Express Template (with Express, JWT, Mongoose, CORS, Nodemon and Dotenv) setup done.",
   "main": "server.js",
   "scripts": {
