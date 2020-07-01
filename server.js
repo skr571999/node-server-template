@@ -27,6 +27,6 @@ app.get("/", async (req, res) => {
   res.send({ message: "Server Running ..." });
 });
 
-app.use("/api", require("./routes"));
+app.use("/api/user", require("./apps/user/routes"));
 
 app.listen(PORT, () => console.log(`Serving on ${PORT}`));

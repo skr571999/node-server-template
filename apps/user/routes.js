@@ -1,8 +1,8 @@
 const express = require("express");
 const router = express.Router();
 
-const { apiRoot } = require("./../controllers");
+const { root } = require("./controllers");
 
-router.get("/", apiRoot);
+router.get("/", root);
 
 module.exports = router;
